@@ -1,0 +1,113 @@
+body{
+    
+}
+
+#new{
+    background-color:#fdb735;
+}
+
+#background{
+    /* background-color: yellow; */
+    display: block;
+    width: 100%;
+    top: 0;
+    left:0;
+    /* border: 1px solid red; */
+}
+
+.wrapper{
+    display: block;
+
+}
+
+@keyframes fadeIn {
+    from {visibility: hidden;}
+    to {visibility: visible;}
+  }
+
+#online {
+    /* padding-left: 30%; */
+    width: 400px;
+    position: absolute;
+    top:30%;
+    left:35%;
+    right:35%;
+    visibility: visible;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 1px solid red; */
+    z-index: 1;
+}
+
+#offline{
+    width: 400px;
+    position: absolute;
+    top:30%;
+    left:35%;
+    right:35%;
+    visibility: hidden;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 0;
+    /* animation: 1s fadeIn; */
+
+}
+
+#charging{
+    position: absolute;
+    top:60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    left:40%;
+    right:40%;
+    font-size: 30px;
+    /* border: 1px solid red; */
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: #3d3d3d;
+    margin-left: 0.5vmax;
+  }
+  
+  .icon:hover {
+      fill:#888888;
+  }
+  
+  .socialMedia{
+      top:3vmax;
+      right:3vmax;
+      /*margin: 36vmax;*/
+      /*padding: 4vmax 0 0 3vmax;*/
+      position: fixed;
+      z-index: 1000;
+  }
+  
+  .footage{
+      position: fixed;
+      bottom: 2vmax;
+      right: 3vmax;
+    text-align: right;
+    font-family: myFirstFont;
+  }
+  
+  .notes{
+      font-size: 0.2em;
+      text-align: right;
+  }
+  
+  .linkNotes{
+      font-size: 0.2em;
+      text-align: right;
+  }
